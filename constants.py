@@ -1,0 +1,52 @@
+BLACK = (0, 0, 0)
+
+GRAY = (50, 50, 50)
+LIGHT_GRAY = (200, 200, 200)
+DIM_GRAY  = (145, 145, 145)
+
+WHITE = (255, 255, 255)
+
+GREEN = (0, 150, 0)
+LIGHT_GREEN = (0, 255, 0)
+
+RED = (200, 0, 0)
+LIGHT_RED = (255, 0, 0)
+
+BLUE = (0, 0, 255)
+
+YELLOW = (200, 200, 0)
+LIGHT_YELLOW = (255, 255, 0)
+
+PURPLE = (75, 0, 130)
+LIGHT_PURPLE = (128, 0, 128)
+
+ORANGE = (255, 165, 0)
+LIGHT_ORANGE = (255, 215, 0)
+
+CYAN = (0, 128, 128)
+LIGHT_CYAN = (32, 178, 170)
+
+
+# Size of the squares
+WIDTH = 20
+HEIGHT = 20
+
+# Separation between squares
+MARGIN = 5
+
+
+SQUARES = 30
+SIZE = ((SQUARES * WIDTH) + ((SQUARES + 1) * MARGIN))
+WINDOW_SIZE = [SIZE, SIZE + 100]
+
+
+RIGHT = 3
+LEFT = 1
+
+
+PATH = 0
+START = 1
+FINISH = 2
+WALL = 3
+FINAL_PATH = 4
+VISITED = 5
